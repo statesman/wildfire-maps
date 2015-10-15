@@ -1,7 +1,7 @@
 import time
 import requests
 
-INTERVAL = 1 * 60
+INTERVAL = 1 * 900
 FILE_URL = 'http://activefiremaps.fs.fed.us/data/kml/conus_latest_modis.kml'
 DESTINATION_FOLDER = 'maps'
 
