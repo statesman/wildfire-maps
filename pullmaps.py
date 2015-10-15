@@ -2,7 +2,7 @@ import time
 import requests
 
 INTERVAL = 1 * 900
-FILE_URL = 'http://activefiremaps.fs.fed.us/data/kml/conus_latest_modis.kml'
+FILE_URL = 'http://activefiremaps.fs.fed.us/data/kml/conus_hist/conus_20151015.kmz'
 DESTINATION_FOLDER = 'maps'
 
 def download_file():
