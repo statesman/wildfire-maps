@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Folder>
+  <name>Active Fire Mapping Program</name>
+  <description><![CDATA[Satellite fire detection data and related fire intelligence information published by the USDA Forest Service Active Fire Mapping Program and program cooperators.  KMLs are organized by geographic area and updated frequently.  Please view the description for each KML below for product details.<br/><br/>  Additional fire geospatial data/products and information are available at <a href="http://activefiremaps.fs.fed.us"> http://activefiremaps.fs.fed.us </a>]]></description>
+  <visibility>1</visibility>
+  <open>1</open>
+  <LookAt>
+    <longitude> -96.0 </longitude>
+    <latitude> 37.0 </latitude>
+    <altitude> 4000000.0 </altitude>
+    <altitudeMode>relativeToGround</altitudeMode>
+  </LookAt>
+  <Region>
+     <LatLonAltBox>
+       <north> 50.0 </north>
+       <south> 24.0 </south>
+       <east> -66.0 </east>
+       <west> -126.0 </west>
+     </LatLonAltBox>
+     <Lod>
+       <minLodPixels>128</minLodPixels>
+       <maxLodPixels>-1</maxLodPixels>
+     </Lod>
+    </Region>
+ 
+    <NetworkLink>
+      <name>MODIS Fire Detections</name>
+      <open>0</open>
+	  <visibility>1</visibility>
+	  <flyToView>1</flyToView>
+	  <Link>
+	    <href>http://activefiremaps.fs.fed.us/data/kml/conus.kmz</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>900</refreshInterval>
+	  </Link>   
+    </NetworkLink>
+</Folder>
+</kml>
