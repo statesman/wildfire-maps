@@ -1,7 +1,7 @@
 import time
 import requests
 
-INTERVAL = 1 * 900
+INTERVAL = 1 * 3600
 FILE_URL = 'http://activefiremaps.fs.fed.us/data_viirs_iband/kml/conus_hist/conus_20151019.kmz'
 DESTINATION_FOLDER = 'viirs-19'
 

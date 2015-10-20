@@ -2,8 +2,8 @@ import time
 import requests
 
 INTERVAL = 1 * 3600
-FILE_URL = 'http://activefiremaps.fs.fed.us/data_viirs_iband/kml/conus_hist/conus_20151018.kmz'
-DESTINATION_FOLDER = 'viirs-18'
+FILE_URL = 'http://activefiremaps.fs.fed.us/data_viirs_iband/kml/conus_hist/conus_20151020.kmz'
+DESTINATION_FOLDER = 'viirs-20'
 
 def download_file():
     r = requests.get(FILE_URL)
